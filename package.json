@@ -1,0 +1,22 @@
+{
+  "name": "insomna-plugin-jws-by-truelayer",
+  "version": "0.0.2",
+  "description": "Adds a JSON Web Signature header to HTTP requests by using the request body as detached payload.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TrueLayer/insomnia-plugin-jws.git"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "readmeFilename": "README.md",
+  "insomnia": {
+    "name": "jws-by-truelayer",
+    "displayName": "JWS by TrueLayer",
+    "description": "Adds a JSON Web Signature header to HTTP requests by using the request body as detached payload."
+  },
+  "dependencies": {
+    "jws": "^4.0.0"
+  },
+  "devDependencies": {}
+}
