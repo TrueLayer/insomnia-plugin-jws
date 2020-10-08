@@ -7,6 +7,7 @@ Please note: this plugin detaches the payload from the signature, as allowed by 
 ### Steps to configure:
 
 1) Make sure your insomnia environment contains the following properties:
+    * `ENVIRONMENT_URI`: the environment base url you want to point to
     * `REQUIRE_JWS`: this property must be set to true (not `"true"` but `true`, i.e. boolean not string), without it the plugin won't try to sign the request
     * `CERTIFICATE_ID`: your signing certificate id
     * `PRIVATE_KEY`: your signing private key. **Important:** *JSON does not allow line-breaks, so you have to replace all the private key line-breaks with the newline character, i.e. `\n`, which will restore your line-break when the string is parsed*.
