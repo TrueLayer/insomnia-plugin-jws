@@ -1,5 +1,5 @@
 {
-  "name": "insomna-plugin-jws-by-truelayer",
+  "name": "insomnia-plugin-jws-by-truelayer",
   "version": "0.0.2",
   "description": "Adds a JSON Web Signature header to HTTP requests by using the request body as detached payload.",
   "main": "main.js",
