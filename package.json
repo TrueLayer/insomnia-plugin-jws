@@ -16,7 +16,7 @@
     "description": "Adds a JSON Web Signature header to HTTP requests by using the request body as detached payload."
   },
   "dependencies": {
-    "jws": "^4.0.0"
+    "truelayer-signing": "^0.1.0"
   },
   "devDependencies": {}
 }
