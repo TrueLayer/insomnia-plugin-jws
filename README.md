@@ -1,6 +1,6 @@
 # Insomnia JSON Web Signature Plugin by TL
 
-This plugin adds a JSON web signature header to HTTP requests by using the request body as payload.
+this plugin adds a JSON web signature header to HTTP requests by using the request body as payload.
 
 Please note: this plugin detaches the payload from the signature, as allowed by the [RFC7519](https://tools.ietf.org/html/rfc7515#appendix-F).
 
